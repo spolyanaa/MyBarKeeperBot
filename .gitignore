@@ -1,0 +1,4 @@
+.env
+.venv/
+bar_inventory.xlsx
+data.xlsx
