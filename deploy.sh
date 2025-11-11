@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /root/myBarKeeperBot
+cd /root/projects/myBarKeeperBot
 git fetch origin
 git reset --hard origin/release
 source venv/bin/activate
