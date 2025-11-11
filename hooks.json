@@ -1,0 +1,8 @@
+[
+  {
+    "id": "deploy-bot",
+    "execute-command": "/root/projects/myBarKeeperBot/deploy.sh",
+    "command-working-directory": "/root/projects/myBarKeeperBot",
+    "response-message": "Deploying myBarKeeperBot"
+  }
+]
