@@ -505,7 +505,7 @@ def compute_stats(days: int) -> str:
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     context.user_data.clear()
     await update.effective_message.reply_text(
-        "Привет! Я бот, который ведёт учёт продукции на складе. Давай знакомиться:",
+        "Я завхоз, а ты?",
         reply_markup=main_menu_kb()
     )
     return ROLE
