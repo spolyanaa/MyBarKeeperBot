@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e  # прекращаем выполнение при любой ошибке
 
-PROJECT_DIR="/root/projects/MyBarKeeperBot"
+PROJECT_DIR="/root/projects/myBarKeeperBot"
 VENV_DIR="$PROJECT_DIR/venv"
 BRANCH="main"
-SERVICE_NAME="MyBarKeeper-bot"
+SERVICE_NAME="telegram-bot"
 
 echo "🚀 Starting deployment for $SERVICE_NAME..."
 
