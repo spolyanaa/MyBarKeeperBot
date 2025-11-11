@@ -3,7 +3,7 @@ set -e  # если что-то падает — скрипт сразу заве
 
 PROJECT_DIR="/root/projects/myBarKeeperBot"
 VENV_DIR="$PROJECT_DIR/venv"
-BRANCH="release"
+BRANCH="main"
 SERVICE_NAME="MyBarKeeper-bot"
 
 echo "🚀 Starting deployment for $SERVICE_NAME..."
